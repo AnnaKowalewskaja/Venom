@@ -26,6 +26,7 @@ body{
     list-style-type: none;
     display: flex;
     
+    
 }
 
 .nav__menu-item{
@@ -207,4 +208,28 @@ justify-content:center;
     margin: 0;
     margin-bottom: 20px;
     
+}
+
+.nav__menu-link:hover{
+color:#c92140;
+
+
+transition: all 1s;
+
+}
+
+.button__link:hover{
+    color:#c92140;
+    transition: all 1s;
+}
+
+.play-icon:hover{
+    transition: all 1s;
+transform: scale(1.5);
+}
+
+.button-primary:hover{
+    transition: all 1s;
+background-color: #8D0019;
+color: #fff;
 }
